@@ -4,16 +4,16 @@
 /// An anagram is a word or phrase formed by rearranging the letters of a different word or phrase,
 /// typically using all the original letters exactly once.
 ///
-/// # Arguments
+/// ## Arguments
 ///
 /// * `s1` - A string to compare.
 /// * `s2` - Another string to compare.
 ///
-/// # Returns
+/// ## Returns
 ///
 /// `true` if the two strings are anagrams of each other, `false` otherwise.
 ///
-/// # Examples
+/// ## Examples
 ///
 /// ```
 /// assert_eq!(anagrams("rail safety", "fairy tales"), true);
@@ -21,11 +21,11 @@
 /// assert_eq!(anagrams("Hi there", "Bye there"), false);
 /// ```
 ///
-/// # Notes
+/// ## Notes
 ///
 /// This function ignores non-alphanumeric characters and is case-insensitive.
 ///
-/// # See also
+/// ## See also
 ///
 /// * [Wikipedia article on anagrams](https://en.wikipedia.org/wiki/Anagram)
 pub fn anagrams(s1: &str, s2: &str) -> bool {
