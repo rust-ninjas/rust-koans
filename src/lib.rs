@@ -2,6 +2,7 @@ pub mod challenges {
     pub mod anagrams;
     pub mod binary_search_tree;
     pub mod bubble_sort;
+    pub mod capitalize;
 }
 
 mod solutions {
@@ -16,5 +17,11 @@ mod solutions {
 
     pub mod bubble_sort {
         pub mod solution1;
+    }
+
+    pub mod capitalize {
+        pub mod solution1;
+        pub mod solution2;
+        pub mod solution3;
     }
 }
