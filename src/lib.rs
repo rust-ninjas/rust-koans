@@ -3,6 +3,7 @@ pub mod challenges {
     pub mod binary_search_tree;
     pub mod bubble_sort;
     pub mod capitalize;
+    pub mod chunk_array;
 }
 
 mod solutions {
@@ -20,6 +21,12 @@ mod solutions {
     }
 
     pub mod capitalize {
+        pub mod solution1;
+        pub mod solution2;
+        pub mod solution3;
+    }
+
+    pub mod chunk_array {
         pub mod solution1;
         pub mod solution2;
         pub mod solution3;
