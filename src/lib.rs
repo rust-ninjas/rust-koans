@@ -6,6 +6,8 @@ pub mod challenges {
     pub mod chunk_array;
     pub mod fib;
     pub mod fizz_buzz;
+    pub mod from_last;
+    pub mod linked_list;
 }
 
 mod solutions {
@@ -40,6 +42,14 @@ mod solutions {
     }
 
     pub mod fizz_buzz {
+        pub mod solution1;
+    }
+
+    pub mod from_last {
+        pub mod solution1;
+    }
+
+    pub mod linked_list {
         pub mod solution1;
     }
 }
