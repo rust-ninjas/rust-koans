@@ -4,6 +4,8 @@ pub mod challenges {
     pub mod bubble_sort;
     pub mod capitalize;
     pub mod chunk_array;
+    pub mod fib;
+    pub mod fizz_buzz;
 }
 
 mod solutions {
@@ -30,5 +32,14 @@ mod solutions {
         pub mod solution1;
         pub mod solution2;
         pub mod solution3;
+    }
+
+    pub mod fib {
+        pub mod solution1;
+        pub mod solution2;
+    }
+
+    pub mod fizz_buzz {
+        pub mod solution1;
     }
 }
