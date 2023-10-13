@@ -7,7 +7,9 @@ pub mod challenges {
     pub mod fib;
     pub mod fizz_buzz;
     pub mod from_last;
+    pub mod level_width;
     pub mod linked_list;
+    pub mod tree;
 }
 
 mod solutions {
@@ -50,6 +52,14 @@ mod solutions {
     }
 
     pub mod linked_list {
+        pub mod solution1;
+    }
+
+    pub mod level_width {
+        pub mod solution1;
+    }
+
+    pub mod tree {
         pub mod solution1;
     }
 }
