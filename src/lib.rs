@@ -10,6 +10,7 @@ pub mod challenges {
     pub mod level_width;
     pub mod linked_list;
     pub mod matrix;
+    pub mod max_char;
     pub mod tree;
 }
 
@@ -66,5 +67,10 @@ mod solutions {
 
     pub mod matrix {
         pub mod solution1;
+    }
+
+    pub mod max_char {
+        pub mod solution1;
+        pub mod solution2;
     }
 }
