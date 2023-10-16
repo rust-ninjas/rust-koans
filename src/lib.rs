@@ -9,6 +9,7 @@ pub mod challenges {
     pub mod from_last;
     pub mod level_width;
     pub mod linked_list;
+    pub mod matrix;
     pub mod tree;
 }
 
@@ -60,6 +61,10 @@ mod solutions {
     }
 
     pub mod tree {
+        pub mod solution1;
+    }
+
+    pub mod matrix {
         pub mod solution1;
     }
 }
