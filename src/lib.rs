@@ -11,6 +11,7 @@ pub mod challenges {
     pub mod linked_list;
     pub mod matrix;
     pub mod max_char;
+    pub mod merge_sort;
     pub mod tree;
 }
 
@@ -72,5 +73,9 @@ mod solutions {
     pub mod max_char {
         pub mod solution1;
         pub mod solution2;
+    }
+
+    pub mod merge_sort {
+        pub mod solution1;
     }
 }
