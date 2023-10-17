@@ -12,6 +12,7 @@ pub mod challenges {
     pub mod matrix;
     pub mod max_char;
     pub mod merge_sort;
+    pub mod midpoint;
     pub mod tree;
 }
 
@@ -76,6 +77,10 @@ mod solutions {
     }
 
     pub mod merge_sort {
+        pub mod solution1;
+    }
+
+    pub mod midpoint {
         pub mod solution1;
     }
 }
